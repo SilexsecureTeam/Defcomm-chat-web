@@ -1,4 +1,4 @@
-import { useContext, useMemo, useLayoutEffect, useState } from "react";
+/*import { useContext, useMemo, useLayoutEffect, useState } from "react";
 import { Outlet, useLocation } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import { utilOptions, dashboardOptions, dashboardTabs } from "../utils/constants";
@@ -80,7 +80,7 @@ const DashboardWrapper = ({children}) => {
                     backgroundRepeat: "no-repeat",
                 }}
             >
-                {/* Sidebar */}
+                
                 <SidebarComponent
                     authDetails={authDetails}
                     toogleIsOpen={toggleIsOpen}
@@ -121,7 +121,7 @@ const DashboardWrapper = ({children}) => {
                     </ul>
                 </SidebarComponent>
 
-                {/* Main content */}
+                
                 <div className="flex-1 w-2/3 relative flex bg-transparent flex-col h-full">
                     <NavBar title={state?.title} toogleIsOpen={toggleIsOpen} isMenuOpen={isOpen} user={authDetails?.user} />
                     <div className="w-full h-[92%] overflow-y-auto px-2 lg:px-4 bg-transparent">
@@ -148,3 +148,4 @@ const DashboardWrapper = ({children}) => {
 };
 
 export default DashboardWrapper;
+*/
